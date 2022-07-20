@@ -1,7 +1,11 @@
 const formats = {
     text: "Formats",
     items: [
-        { text: "Websites", link: "/formats/websites" }
+        { text: "Excel", link: "/formats/excel" },
+        { text: "PowerPoint", link: "/formats/powerpoint" },
+        { text: "Websites", link: "/formats/websites" },
+        { text: "Word", link: "/formats/word" }
+
     ]
 
 }
