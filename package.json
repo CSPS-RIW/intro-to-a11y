@@ -6,7 +6,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "sass": "sass --watch ./docs/.vitepress/theme/scss/custom.scss ./docs/.vitepress/theme/custom.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/CSPS-RIW/keyboard-navigation#readme",
   "devDependencies": {
+    "sass": "^1.53.0",
     "vitepress": "^1.0.0-alpha.4",
     "vue": "^3.2.37"
   }
