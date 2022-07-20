@@ -1,0 +1,26 @@
+{
+  "name": "keyboard-navigation",
+  "version": "1.0.0",
+  "description": "How to use the keyboard to navigate webpages (without screen readers). This is a basic intro to accessibility testing.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSPS-RIW/keyboard-navigation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSPS-RIW/keyboard-navigation/issues"
+  },
+  "homepage": "https://github.com/CSPS-RIW/keyboard-navigation#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
