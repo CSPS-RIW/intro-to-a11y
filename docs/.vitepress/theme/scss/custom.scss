@@ -1,96 +1,96 @@
-// Overwrite these vars https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
-:root {
+// // Overwrite these vars https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+// :root {
 
-    /* School colours*/
-    --school-purple: #583a79;
-    --slate-blue: #4e5b73;
-    --true-blue: #1c578a;
+//     /* School colours*/
+//     --school-purple: #583a79;
+//     --slate-blue: #4e5b73;
+//     --true-blue: #1c578a;
 
-    --system-gray: #f1f5fb;
-    --body-grey: #333;
+//     --system-gray: #f1f5fb;
+//     --body-grey: #333;
 
-    --white-heat: #fff;
-    --horizontal-rule: #ddd;
+//     --white-heat: #fff;
+//     --horizontal-rule: #ddd;
 
-    --hyperlink-blue: #2b4380;
-    --hyperlink-hover: #0535d2;
-    --hyperlink-visited: #7834bc;
+//     --hyperlink-blue: #2b4380;
+//     --hyperlink-hover: #0535d2;
+//     --hyperlink-visited: #7834bc;
 
 
-    --vp-c-text-dark-1: #fefefe;
-    --vp-c-text-dark-2: var(--hyperlink-visited);
-    --vp-c-text-dark-3: var(--true-blue);
-    --vp-c-text-dark-4: rgba(235, 235, 235, 0.18);
-}
+//     --vp-c-text-dark-1: #fefefe;
+//     --vp-c-text-dark-2: var(--hyperlink-visited);
+//     --vp-c-text-dark-3: var(--true-blue);
+//     --vp-c-text-dark-4: rgba(235, 235, 235, 0.18);
+// }
 
-:root {
-    --vp-c-bg: var(--vp-c-white);
-    --vp-c-bg-soft: var(--vp-c-white-soft);
-    --vp-c-bg-mute: var(--vp-c-white-mute);
-    --vp-c-bg-alt: var(--vp-c-white-soft);
+// :root {
+//     --vp-c-bg: var(--vp-c-white);
+//     --vp-c-bg-soft: var(--vp-c-white-soft);
+//     --vp-c-bg-mute: var(--vp-c-white-mute);
+//     --vp-c-bg-alt: var(--vp-c-white-soft);
 
-    --vp-c-divider: var(--school-purple);
-    --vp-c-divider-light: var(--system-gray);
+//     --vp-c-divider: var(--school-purple);
+//     --vp-c-divider-light: var(--system-gray);
 
-    --vp-c-divider-inverse: var(--vp-c-divider-dark-1);
-    --vp-c-divider-inverse-light: var(--vp-c-divider-dark-2);
+//     --vp-c-divider-inverse: var(--vp-c-divider-dark-1);
+//     --vp-c-divider-inverse-light: var(--vp-c-divider-dark-2);
 
-    --vp-c-text-1: var(--vp-c-text-light-1);
-    --vp-c-text-2: var(--vp-c-text-light-2);
-    --vp-c-text-3: var(--vp-c-text-light-3);
-    --vp-c-text-4: var(--vp-c-text-light-4);
+//     --vp-c-text-1: var(--vp-c-text-light-1);
+//     --vp-c-text-2: var(--vp-c-text-light-2);
+//     --vp-c-text-3: var(--vp-c-text-light-3);
+//     --vp-c-text-4: var(--vp-c-text-light-4);
 
-    --vp-c-text-inverse-1: var(--vp-c-text-dark-1);
-    --vp-c-text-inverse-2: var(--vp-c-text-dark-2);
-    --vp-c-text-inverse-3: var(--vp-c-text-dark-3);
-    --vp-c-text-inverse-4: var(--vp-c-text-dark-4);
+//     --vp-c-text-inverse-1: var(--vp-c-text-dark-1);
+//     --vp-c-text-inverse-2: var(--vp-c-text-dark-2);
+//     --vp-c-text-inverse-3: var(--vp-c-text-dark-3);
+//     --vp-c-text-inverse-4: var(--vp-c-text-dark-4);
 
-    --vp-c-text-code: var(--vp-c-indigo-soft);
+//     --vp-c-text-code: var(--vp-c-indigo-soft);
 
-    --vp-c-brand: var(--school-purple);
-    --vp-c-brand-light: var(--slate-blue);
-    --vp-c-brand-lighter: var(--slate-blue);
-    --vp-c-brand-dark: var(--true-blue);
-    --vp-c-brand-darker: var(--slate-blue);
+//     --vp-c-brand: var(--school-purple);
+//     --vp-c-brand-light: var(--slate-blue);
+//     --vp-c-brand-lighter: var(--slate-blue);
+//     --vp-c-brand-dark: var(--true-blue);
+//     --vp-c-brand-darker: var(--slate-blue);
 
-    --vp-c-sponsor: #fd1d7c;
-}
+//     --vp-c-sponsor: #fd1d7c;
+// }
 
-.dark {
-    --vp-c-bg: var(--vp-c-black-soft);
-    --vp-c-bg-soft: var(--vp-c-black-mute);
-    --vp-c-bg-mute: var(--vp-c-gray-dark-3);
-    --vp-c-bg-alt: var(--vp-c-black);
+// .dark {
+//     --vp-c-bg: var(--vp-c-black-soft);
+//     --vp-c-bg-soft: var(--vp-c-black-mute);
+//     --vp-c-bg-mute: var(--vp-c-gray-dark-3);
+//     --vp-c-bg-alt: var(--vp-c-black);
 
-    --vp-c-divider: var(--body-grey);
-    --vp-c-divider-light: var(--system-gray);
+//     --vp-c-divider: var(--body-grey);
+//     --vp-c-divider-light: var(--system-gray);
 
-    --vp-c-divider-inverse: var(--vp-c-divider-light-1);
-    --vp-c-divider-inverse-light: var(--vp-c-divider-light-2);
+//     --vp-c-divider-inverse: var(--vp-c-divider-light-1);
+//     --vp-c-divider-inverse-light: var(--vp-c-divider-light-2);
 
-    --vp-c-text-1: var(--vp-c-text-dark-1);
-    --vp-c-text-2: var(--vp-c-text-dark-2);
-    --vp-c-text-3: var(--vp-c-text-dark-3);
-    --vp-c-text-4: var(--vp-c-text-dark-4);
+//     --vp-c-text-1: var(--vp-c-text-dark-1);
+//     --vp-c-text-2: var(--vp-c-text-dark-2);
+//     --vp-c-text-3: var(--vp-c-text-dark-3);
+//     --vp-c-text-4: var(--vp-c-text-dark-4);
 
-    --vp-c-text-inverse-1: var(--vp-c-text-light-1);
-    --vp-c-text-inverse-2: var(--vp-c-text-light-2);
-    --vp-c-text-inverse-3: var(--vp-c-text-light-3);
-    --vp-c-text-inverse-4: var(--vp-c-text-light-4);
+//     --vp-c-text-inverse-1: var(--vp-c-text-light-1);
+//     --vp-c-text-inverse-2: var(--vp-c-text-light-2);
+//     --vp-c-text-inverse-3: var(--vp-c-text-light-3);
+//     --vp-c-text-inverse-4: var(--vp-c-text-light-4);
 
-    --vp-c-text-code: var(--vp-c-indigo-lighter);
+//     --vp-c-text-code: var(--vp-c-indigo-lighter);
 
-    --vp-c-brand: #ca98fc;
-    --vp-c-brand-light: var(--vp-c-green-light);
-    --vp-c-brand-lighter: var(--vp-c-green-lighter);
-    --vp-c-brand-dark: var(--vp-c-green-dark);
-    --vp-c-brand-darker: var(--vp-c-green-darker);
-}
+//     --vp-c-brand: #ca98fc;
+//     --vp-c-brand-light: var(--vp-c-green-light);
+//     --vp-c-brand-lighter: var(--vp-c-green-lighter);
+//     --vp-c-brand-dark: var(--vp-c-green-dark);
+//     --vp-c-brand-darker: var(--vp-c-green-darker);
+// }
 
-/**
-* Typography
----------------------------------------------------------*/
-:root {
-    --vp-font-family-base: serif;
-    --vp-font-family-mono: monospace;
-}
+// /**
+// * Typography
+// ---------------------------------------------------------*/
+// :root {
+//     --vp-font-family-base: serif;
+//     --vp-font-family-mono: monospace;
+// }
