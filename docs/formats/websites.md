@@ -21,8 +21,9 @@ Elements that should not have focus:
 1. Text
 2. Images (unless there is a link in the image)
 
-### Examples
-We created a simple but good example to illustrate <a href="https://csps-riw.github.io/tab-order/" target="_blank" rel="noopener" title="open in a new tab">the correct way of tab order</a>.
+### Examples ‼
+1. We created a simple but good example to illustrate <a href="https://csps-riw.github.io/tab-order/" target="_blank" rel="noopener" title="open in a new tab">the correct way of tab order</a>.
+2. We also created a page that illustrates <a href="https://csps-riw.github.io/tab-order/wrong-order.html" target="_blank" rel="noopener" title="open in a new tab">the pains of a bad tab order</a>.
 <!-- <iframe aria-label="Correct Tab Order" src="https://csps-riw.github.io/tab-order/" style="width: 150%; height: 30em; border: none;"></iframe> -->
 
 ## Interactions
